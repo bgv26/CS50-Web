@@ -1,3 +1,7 @@
-h2 {
-	margin-left: 15px;
+h2, img {
+	margin: 15px;
+}
+
+#recipe ul li {
+	list-style: none inside;
 }
