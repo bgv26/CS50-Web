@@ -2,6 +2,16 @@ h2, img {
 	margin: 15px;
 }
 
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex > * {
+	flex: 1 1 480px;
+	margin: 10px;
+}
+
 #recipe ul li {
 	list-style: none inside;
 }
