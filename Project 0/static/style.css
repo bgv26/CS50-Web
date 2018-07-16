@@ -12,11 +12,6 @@ h2, img {
 	margin: 10px;
 }
 
-img.responsive {
-	width: 100%;
-	max-width: 450px;
-}
-
 #recipe ul li {
 	list-style: none inside;
 }
