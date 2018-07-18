@@ -1,17 +1,19 @@
-h2, img {
-	margin: 15px;
-}
+h2, img, table {
+  margin: 10px; }
 
-.flex {
-	display: flex;
-	flex-wrap: wrap;
-}
+table {
+  text-align: center; }
 
-.flex > * {
-	flex: 1 1 480px;
-	margin: 10px;
-}
+.headers, .subheaders {
+  font-style: italic; }
+
+.headers {
+  text-align: center; }
+
+#author {
+  margin: 10px; }
 
 #recipe ul li {
-	list-style: none inside;
-}
+  list-style: none inside; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+$standart_margin: 10px;
+
+h2, img, table {
+	margin: $standart_margin;
+}
+
+table {
+	text-align: center;
+}
+
+%headers-base {
+	font-style: italic;
+}
+
+.headers {
+	@extend %headers-base;
+	text-align: center;
+}
+
+.subheaders {
+	@extend %headers-base;
+}
+
+#author {
+	margin: $standart_margin;
+}
+
+#recipe {
+	ul {
+		li {
+			list-style: none inside;
+		}
+	}
+}
