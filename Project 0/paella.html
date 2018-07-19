@@ -12,80 +12,101 @@
     <title>Project 0: Seafood Paella</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1">Project 0</span>
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">Home</a>
-        <a class="nav-item nav-link active" href="">Seafood Paella</a>
-        <a class="nav-item nav-link" href="curry.html">Pukka yellow curry</a>
-        <a class="nav-item nav-link" href="pork.html">Stewed pork ham with vegetables</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand m-0 h1">Project 0</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav mx-auto">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link active" href="paella.html">Seafood Paella</a>
+          <a class="nav-item nav-link" href="curry.html">Pukka yellow curry</a>
+          <a class="nav-item nav-link" href="">Stewed pork ham with vegetables</a>
+        </div>
       </div>
     </nav>
 
-    <h2 class="text-center font-italic">Seafood Paella</h2>
-    <img class="img-fluid mx-auto d-block" src="static/paella.jpg" alt="Seafood Paella">
+    <h2 class="headers">Seafood Paella</h2>
+    <h6 class="headers">by Cooking Light</h6>
     <div class="container" id="recipe">
-    	<div class="row">
-		    <div class="col">
-	    		<h4 class="font-italic">Ingredients</h4>
-    			<ul>
-		    		<li class="font-weight-bold">Herb Blend:</li>
-		    		<li>1 cup chopped fresh parsley</li>
-		    		<li>1/4 cup fresh lemon juice</li>
-		    		<li>1 tablespoon olive oil</li>
-		    		<li>2 large garlic cloves, minced</li>
-	    			<li class="font-weight-bold">Paella:</li>
-	    			<li>1 cup water</li>
-		    		<li>1 teaspoon saffron threads</li>
-	    			<li>3 (16-ounce) cans fat-free, less-sodium chicken broth</li>
-		    		<li>8 unpeeled jumbo shrimp (about 1/2 pound)</li>
-    				<li>1 tablespoon olive oil</li>
-	    			<li>4 skinned, boned chicken thighs, cut in half</li>
-		    		<li>2 links Spanish chorizo sausage (about 6 1/2 ounces) or turkey kielbasa, cut into 1/2-inch-thick slices</li>
-	    			<li>1 (4-ounce) slice prosciutto or 33%-less-sodium ham, cut into 1-inch pieces</li>
-		    		<li>2 cups finely chopped onion</li>
-	    			<li>1 cup finely chopped red bell pepper</li>
-	    			<li>1 cup canned diced tomatoes, undrained</li>
-		    		<li>1 teaspoon sweet paprika</li>
-    				<li>3 large garlic cloves, minced</li>
-	    			<li>3 cups uncooked Arborio rice or other short-grain rice</li>
-		    		<li>1 cup frozen green peas</li>
-    				<li>8 mussels, scrubbed and debearded</li>
-	    			<li>1/4 cup fresh lemon juice</li>
-	    			<li>Lemon wedges (optional)</li>
-		    	</ul>
-		    </div>
-	    	<div class="col">
-	    		<h4 class="font-italic">Method</h4>
-	    		<ol>
-		    		<li>To prepare the herb blend, combine the first 4 ingredients, and set aside.</li>
-					<li>To prepare paella, combine water, saffron, and broth in a large saucepan.
-					Bring to a simmer (do not boil). Keep warm over low heat. Peel and devein shrimp, leaving tails intact; set aside.</li>
-					<li>Heat 1 tablespoon oil in a large paella pan or large skillet over medium-high heat.</li>
-					<li>Add chicken; saute 2 minutes on each side. Remove from pan.</li>
-					<li>Add sausage and prosciutto; saute 2 minutes. Remove from pan.</li>
-					<li>Add shrimp, and saute 2 minutes. Remove from pan.</li>
-					<li>Reduce heat to medium-low.</li>
-					<li>Add onion and bell pepper; saute 15 minutes, stirring occasionally.</li>
-					<li>Add tomatoes, paprika, and 3 garlic cloves; cook 5 minutes.</li>
-					<li>Add rice; cook 1 minute, stirring constantly. Stir in herb blend, broth mixture, chicken, sausage mixture, and peas.</li>
-					<li>Bring to a low boil; cook 10 minutes, stirring frequently.</li>
-					<li>Add mussels to pan, nestling them into rice mixture. Cook 5 minutes or until shells open; discard any unopened shells.</li>
-					<li>Arrange shrimp, heads down, in rice mixture, and cook 5 minutes or until shrimp are done.</li>
-					<li>Sprinkle with 1/4 cup lemon juice. Remove from heat; cover with a towel, and let stand 10 minutes.</li>
-					<li>Serve with lemon wedges, if desired.</li>
-    			</ol>
-		    </div>
-	    </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <img class="img-fluid mx-auto d-block" src="static/paella.jpg" alt="Seafood Paella">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <table class="table">
+            <tr>
+              <th>Serves</th>
+              <th>Cooks in</th>
+              <th>Difficulty</th>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>1 hour</td>
+              <td>Medium</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h4 class="subheaders">Ingredients</h4>
+          <ul>
+            <li class="font-weight-bold">Herb Blend:</li>
+            <li>1 cup chopped fresh parsley</li>
+            <li>1/4 cup fresh lemon juice</li>
+            <li>1 tablespoon olive oil</li>
+            <li>2 large garlic cloves, minced</li>
+            <li class="font-weight-bold">Paella:</li>
+            <li>1 cup water</li>
+            <li>1 teaspoon saffron threads</li>
+            <li>3 (16-ounce) cans fat-free, less-sodium chicken broth</li>
+            <li>8 unpeeled jumbo shrimp (about 1/2 pound)</li>
+            <li>1 tablespoon olive oil</li>
+            <li>4 skinned, boned chicken thighs, cut in half</li>
+            <li>2 links Spanish chorizo sausage (about 6 1/2 ounces) or turkey kielbasa, cut into 1/2-inch-thick slices</li>
+            <li>1 (4-ounce) slice prosciutto or 33%-less-sodium ham, cut into 1-inch pieces</li>
+            <li>2 cups finely chopped onion</li>
+            <li>1 cup finely chopped red bell pepper</li>
+            <li>1 cup canned diced tomatoes, undrained</li>
+            <li>1 teaspoon sweet paprika</li>
+            <li>3 large garlic cloves, minced</li>
+            <li>3 cups uncooked Arborio rice or other short-grain rice</li>
+            <li>1 cup frozen green peas</li>
+            <li>8 mussels, scrubbed and debearded</li>
+            <li>1/4 cup fresh lemon juice</li>
+            <li>Lemon wedges (optional)</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h4 class="subheaders">Method</h4>
+          <ol>
+            <li>To prepare the herb blend, combine the first 4 ingredients, and set aside.</li>
+            <li>To prepare paella, combine water, saffron, and broth in a large saucepan. Bring to a simmer (do not boil). Keep warm over low heat. Peel and devein shrimp, leaving tails intact; set aside.</li>
+            <li>Heat 1 tablespoon oil in a large paella pan or large skillet over medium-high heat.</li>
+            <li>Add chicken; saute 2 minutes on each side. Remove from pan.</li>
+            <li>Add sausage and prosciutto; saute 2 minutes. Remove from pan.</li>
+            <li>Add shrimp, and saute 2 minutes. Remove from pan.</li>
+            <li>Reduce heat to medium-low.</li>
+            <li>Add onion and bell pepper; saute 15 minutes, stirring occasionally.</li>
+            <li>Add tomatoes, paprika, and 3 garlic cloves; cook 5 minutes.</li>
+            <li>Add rice; cook 1 minute, stirring constantly. Stir in herb blend, broth mixture, chicken, sausage mixture, and peas.</li>
+            <li>Bring to a low boil; cook 10 minutes, stirring frequently.</li>
+            <li>Add mussels to pan, nestling them into rice mixture. Cook 5 minutes or until shells open; discard any unopened shells.</li>
+            <li>Arrange shrimp, heads down, in rice mixture, and cook 5 minutes or until shrimp are done.</li>
+            <li>Sprinkle with 1/4 cup lemon juice. Remove from heat; cover with a towel, and let stand 10 minutes.</li>
+            <li>Serve with lemon wedges, if desired.</li>
+          </ol>
+        </div>
+      </div>
     </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!--
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
