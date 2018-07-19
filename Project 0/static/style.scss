@@ -1,34 +1,52 @@
 $standart_margin: 10px;
+$anchor-hover-color: rgba(0, 0, 0, 0.3);
 
 h2, img, table {
-	margin: $standart_margin;
+  margin: $standart_margin;
 }
 
 table {
-	text-align: center;
+  text-align: center;
 }
 
 %headers-base {
-	font-style: italic;
+  font-style: italic;
 }
 
 .headers {
-	@extend %headers-base;
-	text-align: center;
+  @extend %headers-base;
+  text-align: center;
 }
 
 .subheaders {
-	@extend %headers-base;
+  @extend %headers-base;
 }
 
 #author {
-	margin: $standart_margin;
+  margin: $standart_margin;
 }
 
-#recipe {
-	ul {
-		li {
-			list-style: none inside;
-		}
-	}
+ul {
+  li {
+    list-style: none inside;
+  }
+}
+
+.thumb {
+  width: 100px;
+}
+
+.recipe-link {
+  color: black;
+}
+
+.recipe-link:hover {
+  text-decoration: none;
+  color: $anchor-hover-color;
+}
+
+@media(max-width: 480px) {
+  .thumb {
+    width: 50px;
+  }
 }

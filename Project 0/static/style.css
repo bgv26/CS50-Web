@@ -13,7 +13,21 @@ table {
 #author {
   margin: 10px; }
 
-#recipe ul li {
+ul li {
   list-style: none inside; }
+
+.thumb {
+  width: 100px; }
+
+.recipe-link {
+  color: black; }
+
+.recipe-link:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3); }
+
+@media (max-width: 480px) {
+  .thumb {
+    width: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
