@@ -17,7 +17,7 @@ ul li {
   list-style: none inside; }
 
 .thumb {
-  width: 100px; }
+  max-width: 95%; }
 
 .recipe-link {
   color: black; }
@@ -28,6 +28,6 @@ ul li {
 
 @media (max-width: 480px) {
   .thumb {
-    width: 50px; } }
+    max-width: 50%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -33,7 +33,7 @@ ul {
 }
 
 .thumb {
-  width: 100px;
+  max-width: 95%;
 }
 
 .recipe-link {
@@ -47,6 +47,6 @@ ul {
 
 @media(max-width: 480px) {
   .thumb {
-    width: 50px;
+    max-width: 50%;
   }
 }
