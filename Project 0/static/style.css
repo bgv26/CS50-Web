@@ -27,7 +27,7 @@ ul li {
   color: rgba(0, 0, 0, 0.3); }
 
 @media (max-width: 480px) {
-  .thumb {
-    max-width: 50%; } }
+  h2.headers {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
